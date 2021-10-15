@@ -8,11 +8,15 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "browser": {
+    "child_process": false
+  },
   "dependencies": {
-    "googleapis": "^78.0.0",
+    "google-spreadsheet": "^3.1.15",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "eslint": "7.29.0",

@@ -14,14 +14,3 @@ a {
 * {
   box-sizing: border-box;
 }
-#team {
-  display: flex;
-  flex-direction: column;
-}
-.person {
-  display: flex;
-  flex-direction: row;
-}
-.person > div {
-  padding: 5px 10px;
-}
